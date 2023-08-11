@@ -1,0 +1,20 @@
+add_newline = false
+format = " $username$hostname$shlvl$kubernetes$directory$git_branch$git_commit$git_state$git_status$docker_context$package$cmake$golang$helm$java$nodejs$python$terraform$nix_shell$aws$gcloud$env_var$cmd_duration$custom$line_break$jobs$time$status$character"
+scan_timeout = 10
+
+
+
+[character]
+error_symbol = "[➜ ](bold red)"
+success_symbol = "[➜ ](bold green)"
+vicmd_symbol = "[V ](bold green)"
+
+
+
+[line_break]
+disabled = true
+
+
+
+[python]
+python_binary = "python3"
