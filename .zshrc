@@ -3,8 +3,6 @@ typeset -U path cdpath
 # Use viins keymap as the default.
 bindkey -v
 
-source ~/.brew.zsh
-
 source ~/.zinit.zsh
 source ~/.exports.zsh
 source ~/.aliases.zsh

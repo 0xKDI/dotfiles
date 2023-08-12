@@ -5,6 +5,7 @@
 	email = "dummy@email.com"
 [alias]
 	a = add
+	au = add -u
 	b = branch
 	c = commit
   C = commit -m
@@ -17,3 +18,6 @@
   psh = push
 [push]
 	autoSetupRemote = true
+
+[core]
+  excludesfile = ~/.gitignore_global

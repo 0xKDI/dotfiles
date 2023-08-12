@@ -6,7 +6,6 @@ alias Q='cd ~ ; clear'
 alias a='ansible'
 alias ap='ansible-playbook'
 alias av='ansible-vault'
-alias c='git commit -m'
 alias d='docker'
 alias dc='docker compose'
 alias dcl='docker compose logs -f --tail 1000'
@@ -53,7 +52,7 @@ alias p='pbpaste'
 eval "$(zoxide init zsh --cmd q)"
 eval "$(starship init zsh)"
 alias pip='pip3'
-alias ds='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias c='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 alias kgc='kubectl config get-contexts'
 alias kc='kubectx'
