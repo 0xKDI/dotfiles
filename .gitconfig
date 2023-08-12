@@ -1,0 +1,19 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Dmitry Kulikov
+	email = "dummy@email.com"
+[alias]
+	a = add
+	b = branch
+	c = commit
+  C = commit -m
+	co = checkout
+	l = log
+	lo = log --oneline
+	rb = rebase -i
+	s = status
+	sw = switch
+  psh = push
+[push]
+	autoSetupRemote = true
