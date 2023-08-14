@@ -9,6 +9,7 @@ vim.api.nvim_exec(
     autocmd BufNewFile,BufRead ~/.kube/config set filetype=yaml
     autocmd BufNewFile,BufRead *.gotmpl setfiletype helm
     autocmd BufNewFile,BufRead helmfile*.yaml setfiletype helm
+    autocmd BufNewFile,BufRead *.md setlocal nospell
     augroup ansible_vim_fthosts
       autocmd!
       autocmd BufNewFile,BufRead */tasks/*.yml setfiletype yaml.ansible

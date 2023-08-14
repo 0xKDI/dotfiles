@@ -20,6 +20,7 @@ export PATH="$PATH:$HOME/bin"
 export _JAVA_OPTIONS="-Djava.util.prefs.userRoot=/home/qq/.config/java"
 export DOCKER_DEFAULT_PLATFORM=linux/amd64
 export BAT_THEME="base16"
+export VAULT_ADDR="https://vault.jsa-group.ru"
 
 # MacPorts Installer addition on 2022-11-23_at_16:39:51: adding an appropriate PATH variable for use with MacPorts.
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
