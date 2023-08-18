@@ -9,6 +9,7 @@
 	b = branch
 	c = commit
   C = commit -m
+  cm = commit -m
 	co = checkout
 	l = log
 	lo = log --oneline

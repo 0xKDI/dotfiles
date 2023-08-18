@@ -23,7 +23,7 @@ export BAT_THEME="base16"
 export VAULT_ADDR="https://vault.jsa-group.ru"
 
 # MacPorts Installer addition on 2022-11-23_at_16:39:51: adding an appropriate PATH variable for use with MacPorts.
-export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH:$HOME/go/bin"
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 
