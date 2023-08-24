@@ -28,7 +28,7 @@ export PATH="/opt/local/bin:/opt/local/sbin:$PATH:$HOME/go/bin"
 
 
 # https://github.com/helmfile/helmfile/issues/694
-export HELMFILE_GOCCY_GOYAML=true
+# export HELMFILE_GOCCY_GOYAML=true
 
 # https://github.com/ansible/ansible/issues/76322
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
