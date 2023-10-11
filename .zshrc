@@ -5,6 +5,7 @@ bindkey -v
 
 source ~/.zinit.zsh
 source ~/.exports.zsh
+source ~/.local_exports.zsh
 source ~/.aliases.zsh
 
 
