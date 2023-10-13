@@ -1,3 +1,9 @@
+vd() {
+  viddy -d -n 1 --shell zsh  "$(which $1 | cut -d' ' -f 4-) ${@:2}";
+}
+alias v=viddy 
+alias vgp="viddy kubectl get pods"
+
 alias 2.='cd ../..'
 alias 3.='cd ../../..'
 alias 4.='cd ../../../..'
@@ -39,7 +45,6 @@ alias se='sudoedit'
 alias t='tmuxp'
 alias tf='terraform'
 alias tg='terragrunt'
-alias v='nvim'
 alias vg='vagrant'
 alias vi='nvim'
 alias vim='nvim'
