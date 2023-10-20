@@ -5,3 +5,4 @@
 -- vim.opt.spell = false
 
 vim.opt.swapfile = false
+-- vim.opt.spell = false not working
