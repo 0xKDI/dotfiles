@@ -5,6 +5,7 @@
 vim.api.nvim_exec(
   [[
     autocmd FileType helm set commentstring=#%s
+    autocmd FileType markdown setlocal nospell
     autocmd BufNewFile,BufRead helmfile*.yaml set ft=yaml
     autocmd BufNewFile,BufRead .envrc set filetype=sh
     autocmd BufNewFile,BufRead ~/.kube/config set filetype=yaml

@@ -28,3 +28,5 @@ bindkey '\eq' fzf-cd-widget
 bindkey '\er' fzf-history-widget
 autoload -Uz edit-command-line; zle -N edit-command-line
 bindkey '^ ' edit-command-line
+
+eval "$(direnv hook zsh)"
